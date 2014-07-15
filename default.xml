@@ -412,4 +412,14 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <!-- Linaro toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" groups="pdk,linux,arm" remote="linaro" revision="refs/heads/master" />
+  <!-- Devices Vendor -->
+  <project path="vendor/lge" name="platform_vendor_lge" remote="SmoothKat" revision="kitkat" />
+  <project path="vendor/samsung" name="platform_vendor_samsung" remote="SmoothKat" revision="kitkat" />
+  <project path="vendor/asus" name="platform_vendor_asus" remote="SmoothKat" revision="kitkat" />
+  <project path="vendor/widevine" name="platform_vendor_widevine" remote="SmoothKat" revision="kitkat" />
+  <project path="vendor/nvidia" name="platform_vendor_nvidia" remote="SmoothKat" revision="kitkat" />
+  <project path="vendor/invensense" name="platform_vendor_invensense" remote="SmoothKat" revision="kitkat" />
+  <project path="vendor/elan" name="platform_vendor_elan" remote="SmoothKat" revision="kitkat" />
+  <project path="vendor/nxp" name="platform_vendor_nxp" remote="SmoothKat" revision="kitkat" />
+  <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="SmoothKat" revision="kitkat" />
 </manifest>
