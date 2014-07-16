@@ -17,7 +17,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" remote="SmoothKat" revision="android-4.4.4_r1" groups="pdk" >
+  <project path="build" name="platform/build" remote="SmoothKat" revision="kitkat-mr2.1-release" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
